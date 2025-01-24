@@ -1,7 +1,7 @@
 name: 每天8点30执行一次
 on:
   schedule:
-     - cron: '30 8 * * *' # 定时任务
+     - cron: '07 11 * * *' # 定时任务
   workflow_dispatch:       # 手动运行
 
 env: # 设置环境变量
