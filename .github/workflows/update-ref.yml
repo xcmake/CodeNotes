@@ -14,8 +14,8 @@ jobs:
       - name: 🚜 拉取最新代码
         uses: actions/checkout@v3
         with:
-          ref: 'master'
-          repository: 'xcmake/CodeNotes'
+          ref: 'main'
+          repository: 'jaywcjlove/reference'
 
       - name: ♻️ 编译静态文件
         run: |
